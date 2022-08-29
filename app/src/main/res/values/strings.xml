@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rice Water Calculator</string>
+    <string name="rice_in_gram">Rice in Grams</string>
+    <string name="want_firm_rice">Want Firm Rice?</string>
+    <string name="calculate">Calculate</string>
+    <string name="water_required">Water Required: %s ml</string>
+</resources>
