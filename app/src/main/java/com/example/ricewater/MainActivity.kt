@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
 
     // function for the main function of app
     private fun calculateWater() {
-        //Fetching the edittext entered text and convert to string before convert to double
-        val stringInEditText = binding.editText.text.toString()
+        //Fetching the text input from text field entered text and convert to string before, convert to double
+        val stringInEditText = binding.riceInGramsEditText.text.toString()
         val riceAmount = stringInEditText.toDoubleOrNull()
         // if there is no input in the edit text then the method ends here with return.
         if (riceAmount == null) {

@@ -12,5 +12,16 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- TextView Style -->
+        <item name="android:textViewStyle" >@style/Widget.RiceWater.TextView</item>
+
+        <!-- Switch Style -->
+        <item name="switchStyle">@style/Widget.RiceWater.CompoundButton.Switch</item>
+
+        <!-- Text input fields -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
+        </item>
+
     </style>
 </resources>
